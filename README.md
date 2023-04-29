@@ -1,9 +1,9 @@
 # Breaking down monoliths 🪨⛏️
 
-Microservices-based Calculator Application
+## Microservices-based Calculator Application
 This is a microservices-based calculator application that allows users to perform various arithmetic operations. The application is built using Flask and Flask-RESTful and consists of multiple services that are orchestrated using Docker Compose. The frontend of the application is built using HTML and JavaScript.
 -----------------------------------
-Services
+## Services
 The application consists of the following services:
 + **Addition Service**: This service provides the functionality to add two numbers.
 + **Subtraction Service**: This service provides the functionality to subtract two numbers.
@@ -50,9 +50,9 @@ docker-compose build
 docker-compose up -d
 ```
 ### To stop the services in detached mode
-
+```
 docker-compose down
-
+````
 -----------------------------------
 ## Microservices-based architecture diagram
 <p align="center">
