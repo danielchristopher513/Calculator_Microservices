@@ -61,7 +61,6 @@ docker-compose down
 <p align="center">
   <img src="docs/microservices-final.drawio.png" />
   
-<h7 align="center">The diagram only shows the services already defined within the microservice architecture for visualization purposes. You still need to add services of your own.</h7>
 
 </p>
 
