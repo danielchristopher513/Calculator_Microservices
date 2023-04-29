@@ -43,8 +43,7 @@ The application consists of the following services:
   <img src="docs/microservices-initial.drawio.png" />
 </p><h1></h1>
 </sub>
-p -d
-```
+
 
 ## Converted to Microservices-based architecture diagram
 <p align="center">
