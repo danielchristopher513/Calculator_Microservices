@@ -41,18 +41,6 @@ The application consists of the following services:
 <p align="center">
   <img src="docs/microservices-initial.drawio.png" />
 </p>
-## Build & Run
-```
-# under the microservices directory
-# NOTE: For any code changes to be reflected, the build command must be rerun, and then up
-docker-compose build
-# run without the -d flag incase you want to observe the logs
-docker-compose up -d
-```
-### To stop the services in detached mode
-```
-docker-compose down
-````
 -----------------------------------
 ## Microservices-based architecture diagram
 <p align="center">
