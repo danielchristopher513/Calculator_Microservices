@@ -37,12 +37,16 @@ The application consists of the following services:
 │   │   └── Dockerfile
 │   │
 ```
-## Monolith architecture diagram
+## Intial Monolith architecture diagram
+<sub>
 <p align="center">
   <img src="docs/microservices-initial.drawio.png" />
-</p>
------------------------------------
-## Microservices-based architecture diagram
+</p><h1></h1>
+</sub>
+p -d
+```
+
+## Converted to Microservices-based architecture diagram
 <p align="center">
   <img src="docs/microservices-final.drawio.png" />
   
@@ -50,5 +54,15 @@ The application consists of the following services:
 </p>
 
 -------------------------------
-
-
+### Build & Run
+```
+# under the microservices directory
+# NOTE: For any code changes to be reflected, the build command must be rerun, and then up
+docker-compose build
+# run without the -d flag incase you want to observe the logs
+docker-compose u
+```
+### To stop the services in detached mode
+```
+docker-compose down
+````
