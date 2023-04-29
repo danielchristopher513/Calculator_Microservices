@@ -41,7 +41,6 @@ The application consists of the following services:
 <p align="center">
   <img src="docs/microservices-initial.drawio.png" />
 </p>
-------------------------------------
 ## Build & Run
 # under the microservices directory
 # NOTE: For any code changes to be reflected, the build command must be rerun, and then up
