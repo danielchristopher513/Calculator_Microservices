@@ -43,19 +43,16 @@ The application consists of the following services:
 </p>
 ---------------------------------------
 ## Build & Run
-```
 # under the microservices directory
 # NOTE: For any code changes to be reflected, the build command must be rerun, and then up
 docker-compose build
 # run without the -d flag incase you want to observe the logs
 docker-compose up -d
-```
+
 ### To stop the services in detached mode
-```
+
 docker-compose down
-```
-----------------------------------
-**NOTE**: It is possible your first build will not be successful and that's alright. Read the stack trace and debug the errors. The resources and links provided within the manual are sufficient to successfully complete the project.
+
 -----------------------------------
 ## Microservices-based architecture diagram
 <p align="center">
