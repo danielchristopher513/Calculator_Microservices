@@ -37,7 +37,7 @@ The application consists of the following services:
 │   │   └── Dockerfile
 │   │
 ```
-## Intial Monolith architecture diagram
+## Initial Monolith architecture diagram
 <sub>
 <p align="center">
   <img src="docs/microservices-initial.drawio.png" />
